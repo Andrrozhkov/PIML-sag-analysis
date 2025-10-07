@@ -4,4 +4,3 @@ Within the catenary framework  (в рамках контактной сети)
 2. Применение машинного обучения, основанного на физике (PIML), для прогнозирования провисания линий электропередачи при различных воздействиях окружающей среды.
 
 PS "Наша, основанная на физических законах нейронная сеть, предназначена  для точного прогнозирования провисания провода под воздействием силы тяжести и при различных воздействиях окружающей среды, гарантируя, что все прогнозы соответствуют фундаментальным физическим законам механики тяжелой нерастежимой нити".
-"Our Physics-Informed Neural Network operates within the catenary framework to accurately predict wire sag under various environmental conditions, ensuring that all predictions satisfy the fundamental physical laws of cable mechanics."

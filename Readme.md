@@ -23,9 +23,9 @@
 
 2. Установите зависимости:
     ```bash
-    pip install -r requirements.txt```
+   pip install -r requirements.txt```
 
-Или с помощью conda:
+   Или с помощью conda:
     ```bash
     conda env create -f environment.yml
     conda activate piml-sag```

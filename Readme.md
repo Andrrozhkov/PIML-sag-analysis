@@ -23,7 +23,8 @@ piml-sag-analysis/
 │ ├── image_processing/ # Обработка изображений, сегментация
 │ ├── geometry_reconstruction/ # 3D реконструкция, катенаризация
 │ ├── physics_analysis/ # Расчет натяжения, анализ безопасности
-│ └── reporting/ # Генерация отчетов, визуализация```
+│ └── reporting/ # Генерация отчетов, визуализация
+```
 
 
 Подробнее об архитектуре можно прочитать в [документации](docs/architecture/overview.md).
@@ -32,13 +33,13 @@ piml-sag-analysis/
 Клонируйте репозиторий:
    ```bash
    git clone https://github.com/your-username/piml-sag-analysis.git
-   cd piml-sag-analysis```
+   cd piml-sag-analysis
+```
 
 ## Быстрый старт
 Установите зависимости:
     ```bash
    pip install -r requirements.txt```
-
 
 ## Структура проекта:
 ```text
@@ -166,7 +167,8 @@ piml-sag-analysis/
             'safety_margin': 1.8
         }
     ]
-}```
+}
+```
 
 ## Лицензия
 Этот проект распространяется под лицензией MIT. Подробнее см. в файле LICENSE. 

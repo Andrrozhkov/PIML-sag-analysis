@@ -82,15 +82,17 @@ piml-sag-analysis/
 │   └── saved_models/                 # Другие модели (если будут)
 │       └── pretrained_models.zip     # Предобученные модели для быстрого старта
 |
-├── notebooks/                        # Jupyter Notebooks и Colab для демонстрации и экспериментов
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_image_processing_pipeline.ipynb   # Ноутбук для демонстрации обработки изображений
-│   ├── 03_3d_reconstruction.ipynb           # Ноутбук для демонстрации 3D-реконструкции
-│   ├── 04_catenary_fitting.ipynb            # Ноутбук для демонстрации катенаризации
-│   ├── 05_tension_analysis.ipynb            # Ноутбук для демонстрации анализа натяжения
-│   └── 06_results_visualization.ipynb       # Ноутбук для визуализации результатов
+├── notebooks/                                # Jupyter Notebooks и Colab для демонстрации и экспериментов
+|   ├── 01_flight_data_acquisition.ipynb      # Сбор данных с квадрокоптера
+|   |── 02_image_processing_demo.ipynb        # Обработка и сегментация изображений
+|   ├── 03_3d_reconstruction.ipynb            # 3D реконструкция проводов
+|   ├── 04_catenary_fitting.ipynb             # Аппроксимация цепной линией
+|   ├── 05_tension_analysis.ipynb             # Расчет натяжения
+|   ├── 06_safety_criteria_check.ipynb        # Проверка критериев безопасности
+|   ├── 07_visualization_demo.ipynb           # Визуализация результатов
+|   └── 08_full_pipeline_demo.ipynb           # Полный пайплайн на примере
 │
-├── colab_notebooks/                   # Ноутбуки для Colab
+├── colab_notebooks/                          # Ноутбуки для Colab
 │   ├── 01_colab_quickstart.ipynb
 │   ├── 02_full_pipeline_colab.ipynb
 │   ├── 03_live_demo_colab.ipynb

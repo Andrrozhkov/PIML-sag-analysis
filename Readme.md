@@ -25,10 +25,11 @@
     ```bash
    pip install -r requirements.txt```
 
-   Или с помощью conda:
+Или с помощью conda:
     ```bash
     conda env create -f environment.yml
-    conda activate piml-sag```
+    conda activate piml-sag
+    ```
 
 Быстрый старт
 Запустите Jupyter Notebook и откройте `notebooks/01_data_exploration.ipynb` для начала работы.

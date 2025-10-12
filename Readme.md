@@ -37,7 +37,7 @@ piml-sag-analysis/
 
 ## Быстрый старт
 Установите зависимости:
-    ```bash
+```bash
     pip install -r requirements.txt
 ```
 

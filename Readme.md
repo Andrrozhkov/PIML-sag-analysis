@@ -30,15 +30,15 @@ piml-sag-analysis/
 
 ## Установка
 Клонируйте репозиторий:
-   ```bash
-   git clone https://github.com/your-username/piml-sag-analysis.git
-   cd piml-sag-analysis
+```bash
+git clone https://github.com/your-username/piml-sag-analysis.git
+cd piml-sag-analysis
 ```
 
 ## Быстрый старт
 Установите зависимости:
 ```bash
-    pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Структура проекта:

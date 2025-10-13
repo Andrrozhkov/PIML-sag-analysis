@@ -28,4 +28,5 @@ jobs:
     - name: Run demo pipeline             # 5. Запустить демо
       run: |
         python examples/demo_pipeline.py --test-mode
+```
 

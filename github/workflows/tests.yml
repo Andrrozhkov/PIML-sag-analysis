@@ -1,5 +1,5 @@
 ```yml
-# This file is located in .github/workflows/tests.yml
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
 name: Tests and Validation  # Название процесса
 
 on: [push, pull_request]    # КОГДА запускать: при каждом push и PR

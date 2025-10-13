@@ -1,4 +1,4 @@
-```yml
+```yaml
 
 name: Tests and Validation  # Название процесса
 
@@ -27,5 +27,6 @@ jobs:
     
     - name: Run demo pipeline             # 5. Запустить демо
       run: |
-        python examples/demo_pipeline.py --test-mode```
+        python examples/demo_pipeline.py --test-mode
+```
 

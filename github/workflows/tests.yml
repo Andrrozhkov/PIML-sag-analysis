@@ -1,29 +1,31 @@
-name: Tests and Validation
+```yaml
+# .github/workflows/tests.yml
+name: Tests and Validation  # Название процесса
 
-on: [push, pull_request]
+on: [push, pull_request]    # КОГДА запускать: при каждом push и PR
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest  # ГДЕ запускать: на виртуальной машине Ubuntu
     
     steps:
-    - uses: actions/checkout@v2
-    
-    - name: Set up Python
+    # ЧТО ДЕЛАТЬ (последовательность):
+    - uses: actions/checkout@v2           # 1. Скачать код из репозитория
+    - name: Set up Python                 # 2. Установить Python
       uses: actions/setup-python@v2
       with:
         python-version: '3.9'
     
-    - name: Install dependencies
+    - name: Install dependencies          # 3. Установить зависимости
       run: |
         pip install -r requirements.txt
         pip install pytest pytest-cov
     
-    - name: Run tests
+    - name: Run tests                     # 4. ⚡ ЗАПУСТИТЬ ТЕСТЫ из папки tests/
       run: |
         pytest tests/ -v --cov=src/
     
-    - name: Run demo pipeline
+    - name: Run demo pipeline             # 5. Запустить демо
       run: |
         python examples/demo_pipeline.py --test-mode
 

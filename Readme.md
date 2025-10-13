@@ -105,6 +105,11 @@ piml-sag-analysis/
 │   │   ├── flight_planner.py          # Планировщик полета
 │   │   └── uav_controller.py          # Контроллер квадрокоптера (если используется симуляция или реальное управление)
 │   │
+│   │
+│   ├── physics_analysis
+│   │   └── tension_calculation.py     # Расчет натяжения провода
+│   │ 
+│   │
 │   ├── data_processing/               # Модуль обработки данных
 │   │   ├── __init__.py
 │   │   ├── image_preprocessing.py     # Предобработка изображений (коррекция дисторсии, шумов)

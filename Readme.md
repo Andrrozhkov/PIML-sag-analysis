@@ -46,8 +46,8 @@ pip install -r requirements.txt
 piml-sag-analysis/
 |
 |── .github/                          # Для GitHub-specific файлов
-|   └── workflows/                    # Папка для CI/CD (опционально)
-|       └── tests.yml                 # Автоматические тесты
+|   └── workflows/                    # Папка для файлов конфигурации workflows (рабочих процессов) GitHub Actions. Эти файлы (в формате YAML) описывают, какие действия должны быть выполнены при определенных событиях в репозитории, настройка CI/CD (Continuous Integration/Continuous Deployment) для автоматического прогона тестов при каждом изменении кода.
+|       └── tests.yml                 # Конфигурация GitHub Actions для автоматического запуска тестов (при push или pull request)
 |
 |── colab/                            # Специфичные для Colab файлы
     |── install_dependencies.py       # Скрипт для установки зависимостей в Colab
@@ -98,7 +98,7 @@ piml-sag-analysis/
 │   ├── 03_live_demo_colab.ipynb
 │   └── 04_batch_processing_colab.ipynb
 |
-├── src/                               # Исходный код (основная папка)
+├── src/                               # Исходный код проекта (основная папка)
 │   ├── __init__.py                   
 │   ├── data_acquisition/              # Модуль сбора данных
 │   │   ├── __init__.py
@@ -140,7 +140,7 @@ piml-sag-analysis/
 │       ├── coordinate_transforms.py   # Преобразования систем координат
 │       └── constants.py               # Физические константы, параметры проводов
 │
-├── tests/                             # Юнит-тесты
+├── tests/                             # Юнит-тесты и интеграционные тесты
 │   ├── __init__.py
 │   ├── test_data_preprocessing.py
 │   ├── test_segmentation.py

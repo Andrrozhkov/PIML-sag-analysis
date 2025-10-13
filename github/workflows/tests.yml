@@ -1,4 +1,4 @@
-```yml
+```yaml
 name: Tests and Validation  # Название процесса
 
 on: [push, pull_request]    # КОГДА запускать: при каждом push и PR

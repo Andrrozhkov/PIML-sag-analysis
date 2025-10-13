@@ -1,0 +1,13 @@
+# .github/workflows/test-syntax.yml
+name: Test Syntax Highlighting
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test-syntax:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check syntax
+        run: echo "YAML syntax is working!"
